@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+.container{
+    width: 30rem;
+    height:30rem;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
+.emoji {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.wrapper{
+    font-family:"Indie Flower";
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+button{
+    border-radius: 0.6em;
+    height: 30px;
+    border: #3333ff;
+    color: azure;
+    background-color:#3333ff ;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top:10px ;
+}
+.delay{
+    border: 3px solid #D3D3D3;
+    width:10rem;
+    height: 5rem;
+    padding:30px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color:#D3D3D3;
+    border-radius: 0.5rem;
+}
+.box{
+    border: 1px solid #CCCCCC;
+    border-radius:1rem ;
+    margin-top:40px ;
+    padding: 10px;
+    background-color: #CBCBCB;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box > :nth-child(1){
+    text-align: center;
+    font-weight: bold;
+    
+}
+i{
+    color: rgb(0, 162, 255);
+}
